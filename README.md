@@ -1,5 +1,4 @@
-## ClearPlayer
-
+# ClearPlayer
 A PocketMine-MP plugin that clears players inventories using commands...
 Includes extended configuration for customizing messages...
 
