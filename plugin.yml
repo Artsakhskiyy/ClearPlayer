@@ -2,23 +2,20 @@ name: ClearPlayer
 main: Artsakhskiyy\ClearPlayer\Main
 version: 1.0.0
 api: 5.0.0
-author: ClearPlayer
-description: Clear your own or another player's inventory...
-
 commands:
   clearinv:
-    description: Clears your own inventory...
+    description: Clear your own inventory...
     usage: "/clearinv"
-    permission: clearinv.use
+    permission: clearplayer.command.clearinv
   clearplayer:
-    description: Clears another player's inventory...
-    usage: "/clearplayer <player>"
-    permission: clearinv.other
+    description: Clear another player's inventory...
+    usage: "/clearplayer <nickname>"
+    permission: clearplayer.command.clearplayer
 
 permissions:
-  clearinv.use:
-    description: Allows the player to clear their own inventory...
+  clearplayer.command.clearinv:
+    description: Allows player to clear own inventory...
     default: op
-  clearinv.other:
-    description: Allows the player to clear other players' inventory...
+  clearplayer.command.clearplayer:
+    description: Allows player to clear another player's inventory...
     default: op
