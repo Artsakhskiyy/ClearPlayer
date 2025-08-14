@@ -1,0 +1,21 @@
+#      ___       __           __    __       __    _          
+#     / _ | ____/ /____ ___ _/ /__ / /  ___ / /__ (_)_ ____ __
+#    / __ |/ __/ __(_-</ _ `/  '_// _ \(_-</  '_// / // / // /
+#   /_/ |_/_/  \__/___/\_,_/_/\_\/_//_/___/_/\_\/_/\_, /\_, / 
+#                                                 /___//___/ 
+#
+# Config version - DO NOT CHANGE!
+config-version: 1
+
+# Messages...
+messages:
+  usage-clearinv: "§l§2ClearPlayer » Usage: /clearinv"
+  usage-clearplayer: "§l§2ClearPlayer » Usage: /clearplayer <nickname>"
+
+  cleared-own: "§l§2ClearPlayer » Your inventory has been successfully cleared..."
+  cleared-by-other: "§l§2ClearPlayer » Your inventory has been cleared by §e{sender}§2..."
+  cleared-other: "§l§2ClearPlayer » You have cleared §e{player}§2's inventory..."
+  player-not-found: "§l§2ClearPlayer » §cPlayer not found..."
+
+  no-permission: "§l§2ClearPlayer » §cYou do not have permissions to use this command..."
+  only-ingame: "§l§2ClearPlayer » §cThis command is only available in the game..."
