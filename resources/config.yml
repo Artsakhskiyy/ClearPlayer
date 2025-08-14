@@ -17,5 +17,5 @@ messages:
   cleared-other: "§l§2ClearPlayer » You have cleared §e{player}§2's inventory..."
   player-not-found: "§l§2ClearPlayer » §cPlayer not found..."
 
-  no-permission: "§l§2ClearPlayer » §cYou do not have permissions to use this command..."
+  no-permission: "§l§2ClearPlayer » §cYou do not have permission to use this command..."
   only-ingame: "§l§2ClearPlayer » §cThis command is only available in the game..."
