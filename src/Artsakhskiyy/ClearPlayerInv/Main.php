@@ -28,7 +28,7 @@ class Main extends PluginBase {
                     $sender->sendMessage($this->msg('only-ingame'));
                     return true;
                 }
-                if (!$sender->hasPermission("clearplayer.command.clearinv")) {
+                if (!$sender->hasPermission("clearplayerinv.command.clearinv")) {
                     $sender->sendMessage($this->msg('no-permission'));
                     return true;
                 }
@@ -45,7 +45,7 @@ class Main extends PluginBase {
                 return true;
 
             case "clearplayer":
-                if (!$sender->hasPermission("clearplayer.command.clearplayer")) {
+                if (!$sender->hasPermission("clearplayerinv.command.clearplayer")) {
                     $sender->sendMessage($this->msg('no-permission'));
                     return true;
                 }
